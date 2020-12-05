@@ -57,7 +57,7 @@ const SignUp = () => {
                   value={userInput.fname}
                   onChange={onChange}
                 />
-                <p classNam="showError center">{userInput.fnameError}</p>
+                <p className="showError center">{userInput.fnameError}</p>
               </div>
             </div>
 
@@ -71,7 +71,7 @@ const SignUp = () => {
                   value={userInput.lname}
                   onChange={onChange}
                 />
-                <p classNam="showError center">{userInput.lnameError}</p>
+                <p className="showError center">{userInput.lnameError}</p>
               </div>
             </div>
 
@@ -85,7 +85,7 @@ const SignUp = () => {
                   value={userInput.email}
                   onChange={onChange}
                 />
-                <p classNam="showError center">{userInput.emailError}</p>
+                <p className="showError center">{userInput.emailError}</p>
               </div>
             </div>
 
@@ -102,7 +102,7 @@ const SignUp = () => {
                 <span className="togglePw" onClick={handlePw}>
                   {userInput.visibility}
                 </span>
-                <p classNam="showError center">{userInput.pw1Error}</p>
+                <p className="showError center">{userInput.pw1Error}</p>
                 <p className="passwordreq center">
                   The password must contain at least 8 characters including 1
                   number, 1 upper and 1 lower case letter
@@ -120,7 +120,7 @@ const SignUp = () => {
                   value={userInput.pw2}
                   onChange={onChange}
                 />
-                <p classNam="showError center">{userInput.pw2Error}</p>
+                <p className="showError center">{userInput.pw2Error}</p>
               </div>
             </div>
 
