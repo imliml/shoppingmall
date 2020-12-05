@@ -1,11 +1,9 @@
 import React from "react";
+import MainRouter from "./MainRouter";
+import "./styles/reset.scss";
 
 const App = () => {
-  return (
-    <div>
-      <h1> test </h1>
-    </div>
-  );
+  return <MainRouter />;
 };
 
 export default App;
